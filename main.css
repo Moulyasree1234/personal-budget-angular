@@ -68,6 +68,7 @@ div.hero h2 {
 .container {
     padding: 40px;
     width: 100%;
+    background-color: #b4c6f0;
 }
 
 .page-area {
@@ -79,6 +80,7 @@ div.hero h2 {
     height: 50px;
     background-color: #b4c6f0;
     padding: 40px;
+    font-size: medium;
 }
 
 .center {
