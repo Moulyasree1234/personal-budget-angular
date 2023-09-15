@@ -22,6 +22,7 @@ div.menu ul li {
     display:flex;
     flex-direction: row;
     color:red;
+          
 }
 
 div.menu ul li a {
