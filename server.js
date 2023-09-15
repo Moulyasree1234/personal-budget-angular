@@ -9,7 +9,7 @@ app.get('/hello', (req, res) => {
 });
 
 app.use('/budget', (req, res) => {
-    res.sendFile("C:\\Users\\DELL\\Personal-Budget\\chartjs-data.json");
+    res.sendFile("C:\\Users\\DELL\\Personal-Budget\\personal-budget.json");
 })
 
 app.listen(port, () => {

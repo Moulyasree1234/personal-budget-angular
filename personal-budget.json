@@ -13,7 +13,7 @@
         "budget": 90
     },
     {
-        "title": "Electricity bill",
+        "title": "Electricity Bill",
         "budget": 160
     },
     {
@@ -33,8 +33,8 @@
         "budget": 20
     },
     {
-        "title":"others"
-        "budget" : 35
+        "title":"others",
+        "budget": 35
     }
 
 ]
