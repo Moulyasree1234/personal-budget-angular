@@ -23,6 +23,8 @@
         svg {
             width: 100%;
             height: 100%;
+            align-items: center;
+            justify-items: center;
         }
         
         path.slice{
@@ -260,7 +262,7 @@
             
             function change(data) {
             
-                /* ------- PIE SLICES -------*/
+              
                 var slice = svg.select(".slices").selectAll("path.slice")
                     .data(pie(data), key);
             
@@ -283,7 +285,7 @@
                 slice.exit()
                     .remove();
             
-                /* ------- TEXT LABELS -------*/
+              
             
                 var text = svg.select(".labels").selectAll("text")
                     .data(pie(data), key);
@@ -324,7 +326,7 @@
                 text.exit()
                     .remove();
             
-                /* ------- SLICE TO TEXT POLYLINES -------*/
+   
             
                 var polyline = svg.select(".lines").selectAll("polyline")
                     .data(pie(data), key);
