@@ -12,6 +12,9 @@ import { HeroComponent } from './hero/hero.component';
 import { FooterComponent } from './footer/footer.component';
 import { ArticleComponent } from './article/article.component';
 import { HomepageComponent } from './homepage/homepage.component';
+import { ContactComponent } from './contact/contact.component';
+import { BreadcrumbsComponent } from './breadcrumbs/breadcrumbs.component';
+
 
 
 @NgModule({
@@ -25,6 +28,9 @@ import { HomepageComponent } from './homepage/homepage.component';
     FooterComponent,
     ArticleComponent,
     HomepageComponent,
+    ContactComponent,
+    BreadcrumbsComponent,
+
 
   ],
   imports: [
